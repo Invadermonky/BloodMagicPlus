@@ -1,0 +1,98 @@
+#    Code adapted from WayOfTime BloodMagic source. All code belongs to original owner.
+#    Source code found here:
+#    https://github.com/WayofTime/BloodMagic/tree/1.12
+#
+#    Blood Magic 1.12 is Licensed under Creative Commons Attribution 4.0 International Public License
+#    https://github.com/WayofTime/BloodMagic/blob/1.12/LICENSE
+#    https://creativecommons.org/licenses/by/4.0/
+
+
+# Ritual Strings
+ritual.bloodmagic.condorRitual=Reverence of the Condor
+ritual.bloodmagic.condorRitual.info=Provides flight in an area around the ritual.
+
+ritual.bloodmagic.crystalSplitRitual=Resonance of the Faceted Crystal
+ritual.bloodmagic.crystalSplitRitual.info=Splits apart a well-grown Raw crystal cluster into separate aspected crystal clusters.
+
+ritual.bloodmagic.ellipseRitual=Focus of the Ellipsoid
+ritual.bloodmagic.ellipseRitual.info=Creates a hollow spheroid around the ritual using the blocks in the attached chest.
+ritual.bloodmagic.ellipseRitual.spheroidRange.info=(Placement) The range that the ritual will place its blocks in. Spheroid is centered on the ritual - if one side is shorter than the side opposite the spheroid is truncated.
+ritual.bloodmagic.ellipseRitual.chest.info=(Chest) The location of the inventory that the ritual will grab blocks from to place in the world.
+
+ritual.bloodmagic.eternalSoulRitual=Cry of the Eternal Soul
+ritual.bloodmagic.eternalSoulRitual.info=Capable of transferring Life Essence from a Network back into an Altar at a cost.
+
+ritual.bloodmagic.featheredEarthRitual=Ritual of the Feathered Earth
+ritual.bloodmagic.featheredEarthRitual.info=Prevents fall damage in an area.
+
+ritual.bloodmagic.groundingRitual=Ritual of Grounding
+ritual.bloodmagic.groundingRitual.info=Forces entities on the ground and prevents jumping.
+ritual.bloodmagic.groundingRitual.default.info=(Raw) Affects players.
+ritual.bloodmagic.groundingRitual.corrosive.info=(Corrosive) Disables gravity (+Vengeful) Applies Levitation.
+ritual.bloodmagic.groundingRitual.destructive.info=(Destructive) Applies Heavy Heart (increases fall damage) (+Vengeful) Stronger effect.
+ritual.bloodmagic.groundingRitual.steadfast.info=(Steadfast) Affects Bosses. Doesn't affect bosses that are immune against motion change or immune against potions (except Wither and Ender Dragon).
+ritual.bloodmagic.groundingRitual.vengeful.info=(Vengeful) Makes effects stronger. (+Corrosive) Applies Levitation. (+Destructive) Higher Heavy Heart amplifier.
+
+ritual.bloodmagic.veilOfEvilRitual=Veil of Evil
+ritual.bloodmagic.veilOfEvilRitual.info=Allows mob spawning in an area regardless of light level.
+
+ritual.bloodmagic.wardOfSacrosanctityRitual=Ward of Sacrosanctity
+ritual.bloodmagic.wardOfSacrosanctityRitual.info=Prevents mobs spawning in an area.
+
+# Animus Ritual Strings
+ritual.animus.culling.info=Kills mobs within its damage zone and puts the LP into a nearby blood altar.If Destructive Will is high enough can instantly kill buffed mobs and bosses.
+ritual.animus.culling.effect.info=(Damage) This defines where the ritual will kill mobs. All mobs inside of this range (except for players) will be killed and their death effects muted.
+ritual.animus.culling.altar.info=(Altar) This range defines the area that the ritual searches for the blood altar. Changing this will either expand or limit the range to a certain region.
+
+ritual.animus.entropy.info=Converts items that are inside connected inventory into cobblestone.
+ritual.animus.entropy.chest.info=(Chest) The location of the inventory the ritual will extract from and insert into.
+
+ritual.animus.luna.info=Removes light sources from the world and places them into connected inventory.
+ritual.animus.luna.effect.info=(Collecting) The area that the ritual will remove light sources from.
+ritual.animus.luna.chest.info=(Chest) The location of the inventory that the ritual will place items into.
+
+ritual.animus.naturesleech.info=Eats growable blocks in a large area to provide LP to a nearby blood altar.
+ritual.animus.naturesleech.altar.info=(Altar) This range defines the area that the ritual searches for the blood altar. Changing this will either expand or limit the range to a certain region.
+
+ritual.animus.peace.info=Spawns peaceful mobs.
+
+ritual.animus.sol.info=Grabs light sources that are inside of the connected inventory and distributes them evenly in the world. Sigil of the Blood Lamp can be used as a light source.
+ritual.animus.sol.effect.info=(Placement) The area the ritual will place light sources in.
+ritual.animus.sol.chest.info=(Chest) The location of the inventory that the ritual will grab light sources from to place in the world.
+
+ritual.animus.steadfastheart.info=Casts stacking absorption effect on players within range.
+ritual.animus.steadfastheart.effect.info=(Range) The area that players will have Absorption applied.
+
+ritual.animus.unmaking.info=Extracts enchants from items and places them on empty books.
+ritual.animus.unmaking.effect.info=(Range) The area that the ritual will look for enchanted items.
+
+
+# Guide Entries
+# Blood Magic
+guide.bloodmagic.entry.ritual.animalGrowth=Ritual of the Shephard
+guide.bloodmagic.entry.ritual.animalGrowth.info=The Ritual of the Shephard increases the speed at which animals grow significantly.\n\t It also increases the rate of breeding if supplied with Vengeful Will or make the animals capable of searching hostile mobs and explode on them if supplied with Destructive Will. In either case, if supplied with Steadfast Will, it will automatically feed the animals with food from an inventory above the MRS (by default).\n\t Activation Cost: 10,000LP\n\t Cost per operation and animal: 2LP
+
+# Backported Rituals
+guide.bloodmagic.entry.ritual.condor=Reverence of the Condor
+guide.bloodmagic.entry.ritual.condor.info=The Reverence of the Condor allows flight for players in a local area around the ritual.\n\t Activation Cost: 1,000,000LP\n\t Cost per operation: 2LP
+
+guide.bloodmagic.entry.ritual.crystalSplit=Resonance of the Faceted Crystal
+guide.bloodmagic.entry.ritual.crystalSplit.info=Once Demon Will has crystallized, there is no way to split it into its many aspects - or so I've thought until now. The "Resonance of the Faceted Crystal" works by separating the many aspects inside of an unaspected (or raw) crystal cluster by using the different aspected ritual stones. \n\tIn order to use the ritual, an unaspected crystal cluster has to be placed two blocks above the Master Ritual Stone. In other words, you can place a crystallizer on top of the MRS and a crystal cluster on top of that and it should work well. Next, you must make sure that there are no blocks directly above the four elemental-based ritual stones, and then wait for the crystal cluster to grow. \n\tAfter the cluster has grown a total of five or more spires, the ritual will split these spires off and create one spire each of Corrosive, Steadfast, Vengeful, and Destructive Will on top of the aspected ritual stones. If the unaspected cluster is allowed to grow further and these new clusters remain intact, the process will repeat and more spires will be added. \n\tThe mechanism for this process is quite simple. When the Raw Will crystal has at least five spires, the ritual breaks off four of these spires and converts the Will into its more incorporeal form. This Will is then pushed threw the final spire of the cluster, which forces the different aspects of the Will into more localized clumps of the particular aspect. This Will is then gathered into the ritual stones, which act as bases for which the new aspected crystal clusters can grow from.
+
+guide.bloodmagic.entry.ritual.ellipsoid=Focus of the Ellipsoid
+guide.bloodmagic.entry.ritual.ellipsoid.info=The Focus of the Ellipsoid creates a hollow sphere (by default) from materials in an inventory connected to the MRS (usually a chest on top of the MRS).\n\t Activation Cost: 20,000LP\n\t Cost per block placed: 5LP
+
+guide.bloodmagic.entry.ritual.eternalSoul=Ritual of the Eternal Soul
+guide.bloodmagic.entry.ritual.eternalSoul.info=The Cry of the Eternal Soul is capable of feeding LP from the Soul Network back into an altar. This falls under the usual restrictions of pumping (liquid) Life Essence into an altar. Every point of LP transferred into the altar costs 2 LP from the network.\n\t Activation Cost: 2,000,000LP\n\t Cost per operation: 2*transferLP
+
+guide.bloodmagic.entry.ritual.featheredEarth=Ritual of the Feathered Earth
+guide.bloodmagic.entry.ritual.featheredEarth.info=The Ritual of the Feathered Earth constantly reduces the fall height to 0, effectively eliminating fall damage.\n\t Activation Cost: 5,000LP\n\tCost per second: 20LP
+
+guide.bloodmagic.entry.ritual.grounding=Ritual of Grounding
+guide.bloodmagic.entry.ritual.grounding.info=The Ritual of Grounding manipulates the gravity in its area. By default, it drags mobs to the ground and prevents jumping.\n\t Supplying the ritual with Raw Will makes it affect players in addition to mobs.\n\t Corrosive Will simply disables gravity all together.\n\t Destructive Will vastly increases fall damage of affected entities.\n\t Steadfast Will allows the ritual to affect bosses.\n\t Vengeful Will alone amplifies the grounding effect, in combination with Corrosive Will, however, it transforms the ritual to provide levitation instead. Vengeful Will also increases the effect of Heavy Heart, increasing fall damage even more.\n\t Activation Cost: 5,000LP\n\tCost per second: 20LP
+
+guide.bloodmagic.entry.ritual.veilOfEvil=Veil of Evil
+guide.bloodmagic.entry.ritual.veilOfEvil.info=The Veil of Evil casts a magical shroud over its area, allowing mobs to form where they usually would not. Spawns following vanilla rules will be forced to spawn. Spawns that are denied will follow vanilla spawning rules.
+
+guide.bloodmagic.entry.ritual.wardOfSacrosanctity=Ward of Sacrosanctity
+guide.bloodmagic.entry.ritual.wardOfSacrosanctity.info=The Ward of Sacrosanctity provides a powerful ward, preventing mobs from forming even though they usually would. Spawns following vanilla rules will be prevented from spawning. Spawns that are forced or allowed will follow vanilla spawning rules.

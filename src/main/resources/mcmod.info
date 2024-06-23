@@ -1,0 +1,16 @@
+[
+{
+  "modid": "bmplus",
+  "name": "Blood Magic+",
+  "description": "Adds missing crops to the blood magic Reap of the Harvest Moon ritual.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Invadermonky"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
